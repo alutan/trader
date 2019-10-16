@@ -34,7 +34,6 @@ pipeline {
         sh """
         env
         mvn -v 
-        cd TraderProject
         mvn clean package
         """
       }
@@ -45,7 +44,6 @@ pipeline {
       steps {
         sh """
         mvn -v 
-        cd TraderProject
         mvn test
         """
       }
