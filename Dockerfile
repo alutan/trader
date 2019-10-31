@@ -24,3 +24,5 @@ COPY ./target/trader-1.0-SNAPSHOT.war /config/apps/TraderUI.war
 RUN chown -R 1001.0 /config /opt/ibm/wlp/usr/servers/defaultServer /opt/ibm/wlp/usr/shared/resources && chmod -R g+rw /config /opt/ibm/wlp/usr/servers/defaultServer  /opt/ibm/wlp/usr/shared/resources
 
 USER 1001
+
+RUN installUtility install --acceptLicense microprofile-3.0 appsecurity-2.0 monitor-1.0 jwtsso-1.0
