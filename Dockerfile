@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM ibmcom/websphere-liberty:kernel-ubi-min
+FROM ibmcom/websphere-liberty:19.0.0.5-kernel-ubi-min
 USER root
 
 ARG SSL=false
