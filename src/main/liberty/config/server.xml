@@ -20,6 +20,7 @@
         <feature>jwt-1.0</feature>
         <feature>mpJwt-1.1</feature>
         <feature>jwtSso-1.0</feature>
+        <feature>mpOpenTracing-1.0</feature>
 <!--    <feature>logstashCollector-1.0</feature> -->
 <!--    <feature>ldapRegistry-3.0</feature>      -->
 <!--    <feature>socialLogin-1.0</feature>       -->
