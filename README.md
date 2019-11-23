@@ -41,7 +41,8 @@ This is version 1 of the *Stock Trader* UI, implemented in **Java**, and is deli
  
  ### Build and Deploy to OCP
 To build `trader` clone this repo and run:
-```cd templates
+```
+cd templates
 
 oc create -f trader-liberty-projects.yaml
 
